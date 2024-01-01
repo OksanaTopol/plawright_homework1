@@ -1,0 +1,26 @@
+{
+  "name": "playwright_homework1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "npx playwright test /specs/login.spec.js",
+    "alerts": "npx playwright test /specs/alerts.spec.js",
+    "download": "npx playwright test /specs/download.spec.js",
+    "upload": "npx playwright test /specs/upload.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OksanaTopol/playwright_homework1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OksanaTopol/playwright_homework1/issues"
+  },
+  "homepage": "https://github.com/OksanaTopol/playwright_homework1#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.6"
+  }
+}
